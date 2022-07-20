@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Guaqui</title>
+
+    <!-- NORMALIZE-->
+    <link rel="stylesheet" href="_layout/normalize.css" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="_layout/main.css" />
+
+    <!--PRINT-->
+    <!-- <link rel="stylesheet" href="" media="print"> -->
+
+    <!--FAVICON-->
+    <link rel="icon" href="" />
+    <link rel="icon" href="" type="image/svg+xml" />
+
+    <meta name="author" content="Luis Guaiquirian" />
+    <meta
+      name="description"
+      content="Luis Guaiquirian is an apprentice web programmer, specializing in front-end developer, student, based in Santiago de Chile, Chile, apprentice, web programmer, Venezuelan web developer, Chilean, front-end web programmer"
+    />
+    <meta
+      name="keywords"
+      content="Luis, Guaiquirian, Santiago web programmer, front-end developer"
+    />
+
+    <!--
+    Luis Guaiquirian CHILE.
+    V:3.0
+
+    Launched: XX-XX-2022
+  -->
+
+    <!--PAGES-->
+
+            <!--GOOGLE FONTS = Monserrat -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+    <!--GOOGLE FONTS = Englebert -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Englebert&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--GOOGLE FONTS = Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Englebert&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/18e45d357f.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <!--header-->
+
+    <header class="header">
+      <nav>
+        <a class="logo" href="index.html">
+          <img class="logo-img" src="_images/_logos/logo.png" alt="" />
+          Guaiqui
+        </a>
+
+        <!--Usaremos un poco de JS aca para mostrar y ocultar el menu-->
+
+        <div class="nav-links" id="navLinks">
+          <svg class="icon icon-cross" onclick="hideMenu()">
+            <use xlink:href="_images/sprite.svg#icon-cross"></use>
+          </svg>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <svg class="icon icon-menu" onclick="showMenu()">
+          <use xlink:href="_images/sprite.svg#icon-menu"></use>
+        </svg>
+      </nav>
+]
+      <div class="text-box">
+        <h1>"Solvitur Ambulando"</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ab
+          adipisci suscipit vel atque iusto.
+        </p>
+        <a href="#" class="cta-btn">Contact Us to know more</a>
+      </div>
+    </header>
+
+    <!--places-->
+
+    <section class="recomendation section-to-hide section-hidden">
+      <h2>Need to know</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam</p>
+      <div class="recomendation-container">
+        <div class="advice advice-1">
+          <h3>Be ready</h3>
+          <p>
+            Lorem ipsum dolor, facere, molestiae necessitatibus cumque sint
+            voluptas. Unde nemo tempore distinctio quam! Mollitia maiores at
+            dignissimos deserunt delectus. Dolorum.
+          </p>
+        </div>
+        <div class="advice advice-2">
+          <h3>Stay alert</h3>
+          <p>
+            Lorem ipsum dolor, facere, molestiae necessitatibus cumque sint
+            voluptas. Unde nemo tempore distinctio quam! Mollitia maiores at
+            dignissimos deserunt delectus. Dolorum.
+          </p>
+        </div>
+        <div class="advice advice-3">
+          <h3>Enjoy</h3>
+          <p>
+            Lorem ipsum dolor, facere, molestiae necessitatibus cumque sint
+            voluptas. Unde nemo tempore distinctio quam! Mollitia maiores at
+            dignissimos deserunt delectus. Dolorum.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="places section-to-hide section-hidden">
+      <h2>Must go</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam</p>
+      <div class="grid">
+        <div class="box box-1">
+          <img src="_images/barco.jpg" alt="" />
+          <div class="layer">
+            <h3>Melipilla</h3>
+          </div>
+        </div>
+        <div class="box box-2">
+          <img src="_images/calle.jpg" alt="" />
+          <div class="layer">
+            <h3>Renca</h3>
+          </div>
+        </div>
+        <div class="box box-3">
+          <img src="_images/ruda.jpg" alt="" />
+          <div class="layer">
+            <h3>Quilicura</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!--offertas-->
+
+    <section class="offers-section section-to-hide section-hidden">
+
+      <h2>We Offer</h2>
+      <p class="sub-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam</p>
+
+      <div class="offer-container ">
+        <div class="offer-box">
+          <div class="offer-img img-1">
+            <img src="_images/surf.jpg" alt="">
+          </div>
+          <div class="offer-text">
+            <h3>Lorem ipsum sit amet.</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              quo molestiae velit
+            </p>
+          </div>
+        </div>
+        <div class="offer-box">
+          <div class="offer-img img-2">
+            <img src="_images/rapel.jpg" alt="">
+          </div>
+          <div class="offer-text">
+            <h3>Lorem ipsum sit amet.</h3>
+            <p>
+          Ceat soluta culpa
+              tenetur voluptatibus temporibus tempora ipsam tempore!
+            </p>
+          </div>
+        </div>
+        <div class="offer-box">
+          <div class="offer-img img-3">
+            <img src="_images/parachute.jpg" alt="">
+          </div>
+          <div class="offer-text">
+            <h3>Lorem ipsum sit amet.</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              quo molesttempora ipsa
+            </p>
+          </div>
+        </div>
+    </section>
+
+        <!--testimonials-->
+
+        <div class="testimonials section-to-hide section-hidden">
+
+          <h2>
+            Our clients say
+          </h2>
+          <p>Lorem ipsum, deiciendisiure dolores dignissimos. Ratione, et! Dignissimos quae omnis consequatur aliquam blanditiis.</p>
+
+          <div class="testimonials-text">
+            <div class="client client-1">
+              <img src="_images/profile1.jpg" alt="">
+              <div>
+                <p>Itatis suscipit blanditiis molestias ducimus, nobis fugit expedita adipisci ea quaerat voluptate odio ad! Fugiat aliquid perferendis excepturi consequuntur iusto maxime!</p>
+              <h3>Luis Guaiquirian</h3>
+              </div>
+            </div>
+            <div class="client client-2">
+              <img src="_images/profile2.jpg" alt="">
+              <div>
+                <p>Lorem ipsurupttate odio ad! Fugiat aliquid upttate odio ad! Fugiat aliquid peFugiat aliquid pe perferendis excepturi consequuntur iusto maxime!</p>
+                <h3>Christine Berkley</h3>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials-text testimonials-none">
+            <div class="client client-3">
+              <img src="_images/profile3.jpg" alt="">
+              <div>
+                <p>Itatis suscipit blanditiis molestiabis fugit expedita adipisci ea quaerat voluptate odio ad! Fugiat aliquid perferendis excepturi consequuntur iusto maxime!</p>
+              <h3>Neo Morfeo</h3>
+              </div>
+            </div>
+            <div class="client client-4">
+              <img src="_images/profile4.jpg" alt="">
+              <div>
+                <p>Lorem ipsurupttate odio ad! Fugiat al upttate odio ad! Fugiat aliquid peFugiat aliquid pe perferendis excepturi consequuntur iusto maxime!</p>
+                <h3>Peli Rojas</h3>
+              </div>
+            </div>
+          </div>
+          
+        <div class="video-container section-to-hide section-hidden">
+          <video class="video" autoplay muted loop>
+            <source src="_images/view.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      <!--Call to action-->
+
+      <div class="cta">
+        <h1>Contact us to discover your next experience  around the world</h1>
+        <a href="#" class="cta-btn">CONTACT US</a>
+      </div>
+
+      <!--Footer-->
+
+      <footer>
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amimi quisquam quaerat, tae. Commodi officia officiis dolore nesciunt a facilis, quidem nobis soluta aperiam architecto earum ut, facere, laborum mollitia fugit sint exercitationem quis.</p>
+      <div class="icons-footer">
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-facebook"></use>
+        </svg>
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-github"></use>
+        </svg>
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-instagram"></use>
+        </svg>
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-twitter"></use>
+        </svg>
+      </div>
+
+    <p class="disclaimer">Made with <i class="fas fa-heart"></i> by <a href="https://github.com/Widoguaiquirian" target="_blank">Luis Guaiquirian</a></p>
+      </footer>
+      <script src="_layout/script.js"></script>
+  </body>
+</html>

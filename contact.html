@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Guaqui</title>
+
+    <!-- NORMALIZE-->
+    <link rel="stylesheet" href="_layout/normalize.css" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="_layout/main.css" />
+
+    <!--PRINT-->
+    <!-- <link rel="stylesheet" href="" media="print"> -->
+
+    <!--FAVICON-->
+    <link rel="icon" href="" />
+    <link rel="icon" href="" type="image/svg+xml" />
+
+    <meta name="author" content="Luis Guaiquirian" />
+    <meta
+      name="description"
+      content="Luis Guaiquirian is an apprentice web programmer, specializing in front-end developer, student, based in Santiago de Chile, Chile, apprentice, web programmer, Venezuelan web developer, Chilean, front-end web programmer"
+    />
+    <meta
+      name="keywords"
+      content="Luis, Guaiquirian, Santiago web programmer, front-end developer"
+    />
+
+    <!--
+    Luis Guaiquirian CHILE.
+    V:3.0
+
+    Launched: XX-XX-2022
+  -->
+
+    <!--PAGES-->
+
+    <!--GOOGLE FONTS = Monserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--GOOGLE FONTS = Englebert -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Englebert&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--GOOGLE FONTS = Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Englebert&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--FONT AWESOME-->
+    <script
+      src="https://kit.fontawesome.com/18e45d357f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--header-->
+
+    <header class="sub-header">
+      <nav>
+        <a class="logo" href="index.html">
+          <img class="logo-img" src="_images/_logos/logo.png" alt="" />
+          Guaiqui
+        </a>
+
+        <!--Usaremos un poco de JS aca para mostrar y ocultar el menu-->
+
+        <div class="nav-links" id="navLinks">
+          <svg class="icon icon-cross" onclick="hideMenu()">
+            <use xlink:href="/_images/sprite.svg#icon-cross"></use>
+          </svg>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <svg class="icon icon-menu" onclick="showMenu()">
+          <use xlink:href="_images/sprite.svg#icon-menu"></use>
+        </svg>
+      </nav>
+      <h1>Contact Us</h1>
+    </header>
+
+    <!--contact us-->
+
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2899.3856086862606!2d-80.40696748517173!3d43.3898690774378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b9018e9e89adf%3A0x2043c24369ede07e!2sConestoga%20College%20Kitchener%20-%20Doon%20Campus!5e0!3m2!1sen!2scl!4v1643564472627!5m2!1sen!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+
+          <div>
+            <i class="fa fa-home"></i>
+             <span>
+              <h5>Conestoga College Kitchener</h5>
+              <p>299 Doon Valley Dr, Kitchener, ON N2G 4M4, Canada</p>
+             </span>
+          </div>
+
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+1 519-748-5220</h5>
+              <p>Monday to saturday, 10AM to 6PM</p>
+            </span>
+          </div>
+
+          <div>
+           <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>Info@nomore.ca</h5>
+              <p>Ontario, Canada</p>
+            </span>
+          </div> 
+                
+        </div>
+      </div>
+
+        <div class="contact-col">
+      
+        </div>
+      </div>
+    </section>
+
+
+    <!--Footer-->
+
+    <footer>
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor sit amimi quisquam quaerat, tae. Commodi officia
+        officiis dolore nesciunt a facilis, quidem nobis soluta aperiam
+        architecto earum ut, facere, laborum mollitia fugit sint exercitationem
+        quis.
+      </p>
+      <div class="icons-footer">
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-facebook"></use>
+        </svg>
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-github"></use>
+        </svg>
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-instagram"></use>
+        </svg>
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-twitter"></use>
+        </svg>
+      </div>
+
+      <p class="disclaimer">
+        Made with
+        <i class="fas fa-heart"></i>
+        by
+        <a href="https://github.com/Widoguaiquirian" target="_blank">
+          Luis Guaiquirian
+        </a>
+      </p>
+    </footer>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.display = "block";
+      }
+
+      function hideMenu() {
+        navLinks.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

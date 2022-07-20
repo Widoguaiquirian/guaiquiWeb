@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Guaqui</title>
+
+    <!-- NORMALIZE-->
+    <link rel="stylesheet" href="_layout/normalize.css" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="_layout/main.css" />
+
+    <!--PRINT-->
+    <!-- <link rel="stylesheet" href="" media="print"> -->
+
+    <!--FAVICON-->
+    <link rel="icon" href="" />
+    <link rel="icon" href="" type="image/svg+xml" />
+
+    <meta name="author" content="Luis Guaiquirian" />
+    <meta
+      name="description"
+      content="Luis Guaiquirian is an apprentice web programmer, specializing in front-end developer, student, based in Santiago de Chile, Chile, apprentice, web programmer, Venezuelan web developer, Chilean, front-end web programmer"
+    />
+    <meta
+      name="keywords"
+      content="Luis, Guaiquirian, Santiago web programmer, front-end developer"
+    />
+
+    <!--
+    Luis Guaiquirian CHILE.
+    V:3.0
+
+    Launched: XX-XX-2022
+  -->
+
+    <!--PAGES-->
+
+            <!--GOOGLE FONTS = Monserrat -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+    <!--GOOGLE FONTS = Englebert -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Englebert&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--GOOGLE FONTS = Ubuntu -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Englebert&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/18e45d357f.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <!--header-->
+
+    <header class="sub-header">
+      <nav>
+        <a class="logo" href="index.html">
+          <img class="logo-img" src="_images/_logos/logo.png" alt="" />
+          Guaiqui
+        </a>
+
+        <!--Usaremos un poco de JS aca para mostrar y ocultar el menu-->
+
+        <div class="nav-links" id="navLinks">
+          <svg class="icon icon-cross" onclick="hideMenu()">
+            <use xlink:href="/_images/sprite.svg#icon-cross"></use>
+          </svg>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <svg class="icon icon-menu" onclick="showMenu()">
+          <use xlink:href="_images/sprite.svg#icon-menu"></use>
+        </svg>
+      </nav>
+      <h1>Our Offers</h1>
+    </header>
+      <!--Main About-->
+
+      <section class="places">
+        <h2>Must go</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam</p>
+        <div class="grid">
+          <div class="box box-1">
+            <img src="_images/barco.jpg" alt="" />
+            <div class="layer">
+              <h3>Melipilla</h3>
+            </div>
+          </div>
+          <div class="box box-2">
+            <img src="_images/calle.jpg" alt="" />
+            <div class="layer">
+              <h3>Renca</h3>
+            </div>
+          </div>
+          <div class="box box-3">
+            <img src="_images/ruda.jpg" alt="" />
+            <div class="layer">
+              <h3>Quilicura</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+          <!--offertas-->
+  
+      <section class="offers-section">
+  
+        <h2>We Offer</h2>
+        <p class="sub-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam</p>
+  
+        <div class="offer-container">
+          <div class="offer-box">
+            <div class="offer-img img-1">
+              <img src="_images/surf.jpg" alt="">
+            </div>
+            <div class="offer-text">
+              <h3>Lorem ipsum sit amet.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                quo molestiae velit
+              </p>
+            </div>
+          </div>
+          <div class="offer-box">
+            <div class="offer-img img-2">
+              <img src="_images/rapel.jpg" alt="">
+            </div>
+            <div class="offer-text">
+              <h3>Lorem ipsum sit amet.</h3>
+              <p>
+            Ceat soluta culpa
+                tenetur voluptatibus temporibus tempora ipsam tempore!
+              </p>
+            </div>
+          </div>
+          <div class="offer-box">
+            <div class="offer-img img-3">
+              <img src="_images/parachute.jpg" alt="">
+            </div>
+            <div class="offer-text">
+              <h3>Lorem ipsum sit amet.</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                quo molesttempora ipsa
+              </p>
+            </div>
+          </div>
+      </section>
+      <!--Footer-->
+      <footer>
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amimi quisquam quaerat, tae. Commodi officia officiis dolore nesciunt a facilis, quidem nobis soluta aperiam architecto earum ut, facere, laborum mollitia fugit sint exercitationem quis.</p>
+      <div class="icons-footer">
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-facebook"></use>
+        </svg>
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-github"></use>
+        </svg>
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-instagram"></use>
+        </svg>
+        <svg class="icon icon-cross" onclick="hideMenu()">
+          <use xlink:href="_images/sprite.svg#icon-twitter"></use>
+        </svg>
+      </div>
+
+    <p class="disclaimer">Made with <i class="fas fa-heart"></i> by <a href="https://github.com/Widoguaiquirian" target="_blank">Luis Guaiquirian</a></p>
+      </footer>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.display = "block";
+      }
+
+      function hideMenu() {
+        navLinks.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
